@@ -1,0 +1,24 @@
+
+
+
+.about {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background: url("https://images.unsplash.com/photo-1565073182887-6bcefbe225b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW4lMjByYW5nZXN8ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover;
+  }
+  .about >h1{
+        font-size: 50px;
+    
+  }
+  .about> p {
+    line-height: 2rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 19px;
+    color: black;
+    font-size:larger;
+  }
