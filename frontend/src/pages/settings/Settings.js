@@ -12,7 +12,7 @@ export default function Settings() {
   const [password, setPassword] = useState("");
   const [success, setSuccess] = useState(false);
   const { user, dispatch } = useContext(Context);
-  const PF = "https://tamal-blog-post.herokuapp.com/images/";
+  const PF = "https://blog-post-backend-tgqi.onrender.com/images/";
 
   const handleSubmit = async (e) => {
     e.preventDefault();
